@@ -33,16 +33,16 @@ h4 {
     font-size: 1rem;
     font-weight: bolder ;
     text-transform: capitalize;
-    border: none;
+    border: 1px orangered solid;
+    transition-duration: 1s;
     cursor: pointer;
 }
 
 .btn:hover {
     background-color: #ffffff;
     color: orangered;
-    border:1px orangered solid;
-    transition-duration: 1s;
 }
+   
 .livingroom-photo {
     max-width: 100%;
 }
